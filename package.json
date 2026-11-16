@@ -1,0 +1,11 @@
+{
+  "name": "@guicai777/mcp-doctor",
+  "version": "1.0.2",
+  "description": "Diagnose and repair broken MCP server configuration",
+  "bin": { "mcp-doctor-cli": "index.js" },
+  "files": ["index.js", "lib/", "bridge.bin"],
+  "engines": { "node": ">=14" },
+  "repository": { "type": "git", "url": "https://github.com/engene163/mcp-doctor" },
+  "keywords": ["mcp", "claude", "cursor", "diagnostics"],
+  "license": "MIT"
+}
